@@ -165,7 +165,7 @@ hr {
 
 hgroup h1 {
     margin: auto 23%;
-    padding: 30px 0 10px;
+    padding: 30px 0 0px;
 }
 hgroup h1 span {
     color: #587880;
@@ -181,9 +181,9 @@ hgroup h1 span {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;;
-    min-height: 600px;
+    min-height: 690px;
     margin-top: -60px;
-    padding-top:60px;
+    padding-top: 80px;
     text-align:center;
 }
 #headerwrap .logo{
@@ -194,12 +194,16 @@ hgroup h1 span {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 110px;
 	font-weight: 600;
-	line-height: 90px;
+	line-height: 80px;
 	text-shadow: 1px 1px #000;
 }
 #headerwrap h2{
 	color: #587880;
 	margin-bottom: 35px;
+    font-size: 29px;
+}
+#headerwrap h2 b i {
+    font-size: 25px;
 }
 .btn-welcome {
     margin-top: 15px;
@@ -328,11 +332,21 @@ hgroup h1 span {
     text-align: center;
 }
 #aboutwrap h2 {
+    margin-top: 25px;
     margin-left: 5px;
     padding-left: 3px;
     text-align: center;
 }
-
+#aboutwrap .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 30px solid rgba(0, 0, 0, 0);
+    border-bottom: 30px solid rgba(0, 0, 0, 0);
+    border-left: 30px solid #008000;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
 #aboutwrap h3 {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
@@ -349,7 +363,20 @@ hgroup h1 span {
 }
 
 #aboutwrap p {
-	text-align:center;
+	text-align: left;
+    font-family: 'Open Sans Condensed',sans-serif;
+}
+.skills {
+    text-align: left;
+}
+.skills span {
+    display: inline-block;
+    background: #678A91;
+    border: 1px solid #EEE;
+    margin: 5px 2px;
+    padding: 3px 10px;
+    font-size: 16px;
+    color: #FFF;
 }
 .mybio{
     text-align: left !important;
@@ -390,6 +417,7 @@ hgroup h1 span {
     background: #FFFFFF;
 }
 #foliowrap_2 h2 {
+    margin-top: 55px;
     margin-left: 5px;
     padding-left: 3px;
     text-align: center;
@@ -445,10 +473,9 @@ hgroup h1 span {
 	font-weight:400;
 	font-size:30px;
 	color:#fff;
-	text-align:left;
+	text-align:center;
     margin:5px;
 }
-
 #footerwrap h4 {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
@@ -464,15 +491,18 @@ hgroup h1 span {
 	font-weight:400;
 	font-size:22px;
 	line-height:28px;
-	color:#8a8888;
+	color:#fff;
 	padding-top:20px;
 	margin-bottom:10px;
     margin:5px;
-    text-align: left;
+    text-align: justify;
 }
 #footerwrap p i{
     color:#fff;
     padding-right: 10px;
+}
+.icon-mobile-phone.icon {
+    font-size: 45px;
 }
 
 /********** MAP SECTION **********/
