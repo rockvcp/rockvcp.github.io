@@ -5,6 +5,17 @@ $(document).ready(function(){
 	  	$(this).toggleClass("clicked");
 	  	$(".direction").toggleClass("clicked");
 	});
+	/*$( ".toggleSlide" ).click(function() {
+	  	$( ".nav-menu" ).animate({width: 'toggle'});
+	  	$(".nav-menu").addClass("toggle");
+	  	$(this).toggleClass("clicked");
+	  	$(".direction").toggleClass("clicked");
+	  	
+	  	if ($(this).closest('body').find('logo').hasClass('clicked')) {
+	  		$(this).addClass("test");
+	  	}
+	});*/
+	
 	var navlink = $('body .nav-menu ul li a');
 	$('body .nav-menu ul li a').click(function() {
 	    $(this).addClass("clicked");

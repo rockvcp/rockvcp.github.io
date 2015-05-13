@@ -664,6 +664,18 @@ ul.social {
     margin-bottom: 40px;
 }
 
+ul.project {
+    margin-bottom: 125px;
+}
+
+ul.related-projects {
+    margin-bottom: 15px;
+}
+
+ul.related-projects li img {
+    width: 90px;
+}
+
 
 
 /* End Section */
