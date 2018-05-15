@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Author: Rock Vincent Pineda -->
+<!-- Last Update: May 05, 2018 -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rock Vincent Pineda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rock Vincent Pineda, Web Developer based in Pampanga, Philippines">    
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/rock.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animation.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="assets/js/instafeed.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed ({
+            target: 'instafeed',
+            get: 'user',
+            userId: '257134367',
+            accessToken: '257134367.1677ed0.8e4f44a1d060425a86200693d2d32e87',
+            clientId: "ebacbb0999b34f20b99ed18f9dbb5dd2",
+            limit: '10',
+            sortBy: 'most-recent',
+            template: '<div class="columns small-6 medium-4 large-3"><div class="instagram-image-wraper"><a class="test" href="{{link}}"><img src="{{image}}" /></a></div></div>'
+        });
+        feed.run();
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Instafeed </h1>
+        <div id="instafeed">
+            
+        </div>
+    </div>
+    
+</body>
+</html>
