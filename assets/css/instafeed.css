@@ -1,0 +1,25 @@
+body {
+	overflow: auto;
+}
+
+.columns {
+    float: left;
+    margin: 15px;
+    width: 17%;
+}
+
+div#instafeed {
+    position: relative;
+    overflow: auto;
+}
+
+div#wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.instagram-image-wraper img {
+    width: 100%;
+}
