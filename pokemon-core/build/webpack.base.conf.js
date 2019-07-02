@@ -22,7 +22,7 @@ module.exports = {
     //   ? config.build.assetsPublicPath
     //   : config.dev.assetsPublicPath
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/pokemon-core/'
+      ? '/pokemon-quiz/'
       : '/'
 
   },
